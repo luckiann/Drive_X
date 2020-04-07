@@ -45,6 +45,41 @@
           <h2>Mon premier Gist</h2>
         </div>
         <script src="https://gist.github.com/luckiann/47cc13efaa54711da70fddc549a6be18.js"></script>
+         <!-- CARS LIST -->
+    <section class="container">
+      <div class="card-deck  justify-content-center">
+        <div class="card text-center shadow">
+          <div class="card-header bg-dark text-white ">
+              <h2 class="card-title">Pagani Huayra</h2>
+          </div>
+          <div class="card-body">
+              <img src="img/cars/pagani.jpg" class="img-fluid" alt="photo {{car.name}}">
+              <hr>
+              <p>Origine: Italie</p>
+              <p>Puissance: 765 CH</p>
+              <p>0 à 100 km/h: 3.2 sec </p>
+              <!-- <p>{{bookingMessage}}</p> -->
+              <button class="btn btn-primary" (click)="onBooking()" [disabled]="isBooked">Réserver</button>
+          </div>
+      </div>
+        <div class="card text-center shadow">
+          <div class="card-header bg-dark text-white ">
+              <h2 class="card-title">Koenigsegg Agera RS</h2>
+          </div>
+          <div class="card-body">
+              <img src="img/cars/koenigsegg.jpg" class="img-fluid" alt="photo {{car.name}}">
+              <hr>
+              <p>Origine: Suède</p>
+              <p>Puissance: 1383 CH</p>
+              <p>0 à 100 km/h: 2.6 sec </p>
+              <!-- <p>{{bookingMessage}}</p> -->
+              <button class="btn btn-primary" (click)="onBooking()" [disabled]="isBooked">Réserver</button>
+          </div>
+      </div>
+      <hr>
+    </div>
+    </section>
+    <!-- END CARS LIST -->
 </body>
 
 </html>
